@@ -1,0 +1,6 @@
+{
+  "meta": {
+    "title": "Connectors (Custom MCP)",
+    "description": "Paste standard MCP JSON in the Connectors sidebar page to add, disable, reconnect or delete MCP servers at any time, see connection status and tool counts, and authorize HTTP servers with OAuth."
+  }
+}

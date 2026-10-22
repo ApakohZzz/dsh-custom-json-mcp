@@ -1,0 +1,20 @@
+{
+  "name": "dsh-custom-json-mcp-dev",
+  "private": true,
+  "type": "module",
+  "description": "Pinned development dependencies for the dsh-custom-json-mcp tests, icon generator and source checks; not part of the plugin package.",
+  "dependencies": {
+    "@deepseek-ai/cordis": "4.0.5",
+    "@deepseek-ai/cordis-plugin-include": "1.0.10",
+    "@deepseek-ai/cordis-plugin-loader": "1.0.6",
+    "@deepseek-ai/dsh-app-boot": "0.2.1-rc.2",
+    "@deepseek-ai/dsh-mcp-client": "0.2.1-rc.2",
+    "@deepseek-ai/dsh-settings": "0.2.1-rc.2",
+    "@deepseek-ai/dsh-system-prompt": "0.2.1-rc.2",
+    "@deepseek-ai/dsh-tools": "0.2.1-rc.2",
+    "@deepseek-ai/schemastery": "3.18.5",
+    "js-yaml": "4.3.2",
+    "pngjs": "7.0.0",
+    "sharp": "0.35.5"
+  }
+}

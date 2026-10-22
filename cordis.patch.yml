@@ -1,0 +1,8 @@
+# Server definitions live in this entry's config; the Connectors page writes them through DSH Settings.
+# Literal secrets are moved into DSH credentials and stored here only as ${NAME} references.
+- insert:
+    - id: dsh-custom-json-mcp
+      name: dsh-custom-json-mcp
+      config:
+        servers: {}
+        managedRefs: []

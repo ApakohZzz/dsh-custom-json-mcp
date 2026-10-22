@@ -1,0 +1,36 @@
+{
+  "package": "@boxicons/core",
+  "version": "1.0.6",
+  "repository": "https://github.com/box-icons/boxicons-core",
+  "commit": "07f17b2aced3ba51a88255b3ba3ee661a1556e52",
+  "license": "MIT",
+  "page": "https://iconshelf.com/icon/bxl/mcp",
+  "tarball": "https://registry.npmjs.org/@boxicons/core/-/core-1.0.6.tgz",
+  "tarballSha1": "10b62aabb93f5b03b03e138e7a1a4be7d8daef35",
+  "files": [
+    {
+      "path": "upstream/bx-mcp.svg",
+      "sourcePath": "svg/brands/bx-mcp.svg",
+      "url": "https://raw.githubusercontent.com/box-icons/boxicons-core/07f17b2aced3ba51a88255b3ba3ee661a1556e52/svg/brands/bx-mcp.svg",
+      "sha256": "9048dbfd5c8b7c9bc4b6defaa31e606dbde3e8d5bf84bb8d6ffb1fa47464f890"
+    },
+    {
+      "path": "upstream/LICENSE",
+      "sourcePath": "LICENSE",
+      "url": "https://raw.githubusercontent.com/box-icons/boxicons-core/07f17b2aced3ba51a88255b3ba3ee661a1556e52/LICENSE",
+      "sha256": "dca215a1be0e0c7ea96fe338a869bcd313313049d8bdc3da9f2822fa293193e4"
+    }
+  ],
+  "derived": {
+    "path": "icon.png",
+    "generator": "tools/generate-icon.mjs",
+    "parameters": {
+      "size": 256,
+      "radius": 56,
+      "background": "#374151",
+      "foreground": "#ffffff",
+      "glyphScale": 0.66
+    },
+    "sha256": "074a42da4fac75af9d037d4e97f2a13bfdf0090cb8e43bd6d8c93b62386788f3"
+  }
+}

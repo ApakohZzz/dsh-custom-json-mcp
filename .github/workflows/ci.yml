@@ -1,0 +1,28 @@
+name: CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Install pinned development dependencies
+        run: npm ci --prefix dev --ignore-scripts
+      - name: Check the icon against its Boxicons source
+        run: node tools/generate-icon.mjs --check
+      - name: Verify package, documentation and upstream provenance
+        run: node tools/validate.mjs --check-source
+      - name: Run regression tests with the real Cordis and official MCP client
+        run: node --test 'test/*.test.mjs'
